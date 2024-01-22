@@ -12,7 +12,7 @@
     <properties>
         <brandingToken>enclojure</brandingToken>
         <clojure.snapshot.tag/>
-        <clojure.version>1.2.1</clojure.version>
+        <clojure.version>1.9.0</clojure.version>
         <enclojure.version.dev>1.5</enclojure.version.dev>
         <enclojure.version.release>1.5</enclojure.version.release>
         <netbeans.release>RELEASE80</netbeans.release>
@@ -152,7 +152,7 @@
             <dependency>
                 <groupId>org.clojure</groupId>
                 <artifactId>clojure</artifactId>
-                <version>${clojure.version}${clojure.snapshot.tag}</version>
+                <version>${clojure.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.enclojure</groupId>
